@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Submit to Table</title>
+  </head>
+  <body>
+    <h2>Submit Your Info to the Botpress Table</h2>
+
+    <form action="/submit-form" method="POST">
+      <label for="ids">ID:</label><br />
+      <input type="text" id="id" name="id" required /><br /><br />
+
+      <label for="firstName">First Name:</label><br />
+      <input type="text" id="firstName" name="firstName" required /><br /><br />
+
+      <label for="lastName">Last Name:</label><br />
+      <input type="text" id="lastName" name="lastName" required /><br /><br />
+
+      <label for="age">Age:</label><br />
+      <input type="text" id="age" name="age" required /><br /><br />
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
