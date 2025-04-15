@@ -21,7 +21,7 @@ app.post("/submit-form", async(req, res) => {
 
     try{
         //Where we push the data to API path:
-        const response = await axios.post("https://api.botpress.cloud/v1/tables/RodrigoExerciseTable/rows/upsert", {
+        const response = await axios.post("https://api.botpress.cloud/v1/tables/[TABLE NAME]/rows/upsert", {
             rows: [
                 {
                    id: Number(formData.id),
