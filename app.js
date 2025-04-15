@@ -34,10 +34,10 @@ app.post("/submit-form", async(req, res) => {
         }, {
             headers: {
                 accept: 'application/json',
-                'x-bot-id': '72855465-8e77-4b49-b6b3-19f36406ce0c',
-                'x-workspace-id': 'wkspace_01JQ7B996FTQSH23XHV8RT1B0N',
+                'x-bot-id': '[BOT ID]',
+                'x-workspace-id': '[WORKSPACE ID]',
                 'content-type': 'application/json',
-                authorization: "Bearer bp_pat_nYizaKRNuywTeKsSuyPu9AcLA2CQfxPUxpze"
+                authorization: "Bearer [CODE]"
             }
         })
         //When push is complete:
